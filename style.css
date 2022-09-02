@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,#0b56ac  16.62%, #072f5e  81.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 28px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+    
+.item-cabecalho{
+    font-family: 'Righteous', cursive;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #fff2e7 ;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-principal{
+    display: flex;   
+    height: 400px;
+    padding-top: 40px;
+}
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo{
+    font-family: 'Righteous', cursive;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.texto{
+    font-family: 'Righteous', cursive;
+    color: #DCDCDC;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.botao{
+    background-color: #f3f2f2;
+    width: 180px;
+    height: 35px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.titulo-secundario{
+    border-top: 0.4px solid #fff2e7 ;
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+    color:#fff2e7  
+}
+
+.topico-um{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 14px;
+    color: #DCDCDC;
+}
+
+.topico-dois{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 14px;
+    color: #DCDCDC;
+}
+
+.topico-tres{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    font-size: 14px;
+    color: #DCDCDC;
+}
+
+.rodape{
+    padding: 2px;
+    border-top: 0.4px solid #fff2e7 ;
+}
+
+.name{
+    height: 65px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
